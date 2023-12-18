@@ -33,7 +33,7 @@ const mint = async (provider: Provider): Promise<TransactionResponse> => {
   // Construct the mint requests
   const requests = [
     {
-      to: 'YOUR_WALLET_ADDRESS',
+      to: '0xCc2c7256eB82eaE23920b1B8Bd2bbD2C6B06Dc7e',
       tokenIds: [TOKEN_ID1, TOKEN_ID2, TOKEN_ID3],
     }
   ];
