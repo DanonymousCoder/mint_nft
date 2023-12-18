@@ -2,7 +2,7 @@ import { getDefaultProvider, Wallet, utils } from 'ethers'; // ethers v5
 import { Provider, TransactionResponse } from '@ethersproject/providers'; // ethers v5
 import { ERC721Client } from '@imtbl/contracts';
 
-const CONTRACT_ADDRESS = 'YOUR_CONTRACT_ADDRESS';
+const CONTRACT_ADDRESS = '0x106574d5ec0c87d456a9cc4de2694e637047933f';
 const PRIVATE_KEY = 'YOUR_PRIVATE_KEY';
 const TOKEN_ID1 = 1;
 const TOKEN_ID2 = 2;
